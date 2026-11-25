@@ -12,7 +12,6 @@ A Cloud Security Posture Management (CSPM) project for **NT534 – Advanced Netw
 - [AWS Security Hub](#aws-security-hub)
 - [Malware detection on EC2 with GuardDuty](#malware-detection-on-ec2-with-guardduty)
 - [Automated Security Response on AWS](#automated-security-response-on-aws)
-- [Demos](#demos)
 - [References](#references)
 
 ## What is CSPM?
@@ -211,10 +210,6 @@ The runbook takes the security group ID and the IP permissions to revoke:
 It then calls the EC2 `RevokeSecurityGroupIngress` API to remove the public SSH and RDP rules:
 
 ![RevokeSecurityGroupIngress](https://github.com/PNg-HA/CSPM-with-AWS-Security-Hub/assets/93396414/6759f7c5-ee19-41f3-8300-ba3d44d816f8)
-
-### Demos 2–5
-
-Demos 2 to 5 follow the same flow: a misconfiguration causes a failed control, and ASR remediates it. See the video playlist for details.
 
 ## References
 
